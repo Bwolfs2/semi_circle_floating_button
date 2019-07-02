@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
                   child: Container(
                     height: 250,
                     child: CircleButtons(
-                      quantity: 5,
+                      quantity: 10,
                       position: Position.top,
                       radius: 120,
                       right: (MediaQuery.of(context).size.width / 2) - 40,
@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
                     width: 400,
                     height: 400,
                     child: CircleButtons(
-                      quantity: 9,
+                      quantity: 20,
                       position: Position.top,
                       radius: 120,
                       completeCircle: true,
